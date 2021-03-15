@@ -1,0 +1,151 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+/* 
+    font-family: 'Josefin Sans', Montserrat,sans-serif;
+    font-family: 'Roboto', sans-serif;     
+    font-family: 'Akaya Telivigala', cursive;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+/***** Scrollbar Styling */
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/***** Section Heading */
+.section_heading {
+  font-family: "Akaya Telivigala", cursive;
+  color: darkslategray;
+  text-align: center;
+  margin: 10px auto;
+  padding-top: 20px;
+}
+
+.section_heading span:nth-child(2) {
+  display: block;
+  margin: 6px auto;
+  width: 70px;
+  height: 4px;
+  border-radius: 10px;
+  background: rgba(102, 51, 153, 0.637);
+}
+
+
+/***** Analytics */
+.analytics_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: url('../img/banner/analytics.jpg');
+}
+
+.analytics_box .analytics_item {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.analytics_box .analytics_item img {
+  width: 90px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border: 4px double black;
+  border-radius: 50%;
+}
+
+.analytics_box .analytics_item .analytics_count {
+  margin-top: 15px;
+}
+
+.analytics_box .analytics_item .analytics_term {
+  font-variant: small-caps;
+  /* font-weight: bolder; */
+  letter-spacing: 1px;
+  font-size: 20px !important;
+}
+
+@media screen and (max-width: 500px) {
+  .analytics_box .analytics_item {
+    width: 50%;
+  }
+}
+
+/***** Footer */
+footer {
+  background: rgb(102, 101, 101);
+  color: lightgrey;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer span {
+  font-style: italic;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 16px;
+}
+
+.get-social{
+  background: rgb(102, 101, 101);
+  color: lightgrey;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* FAQ */
+#faq_box .accordion-header {
+  background: rgba(211, 211, 211, 0.233);
+  letter-spacing: 0.8px !important;
+}
+
+#faq_box .accordion-body {
+  padding-left: 30px !important;
+  color: rgb(109, 109, 109) !important;
+}
+
+@media screen and (min-width: 768px) {
+  #faq_box .accordion-body {
+    padding-left: 40px !important;
+  }
+}

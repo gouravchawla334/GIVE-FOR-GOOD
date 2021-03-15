@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/***** Assurance to You */
+.assurance_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.assurance_box .assurance_item {
+  width: 30%;
+  height: 250px;
+  padding: 30px 20px;
+  background: #26323886;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+  margin-top: 20px !important;
+}
+
+.assurance_box .assurance_item:hover {
+  transform: translateY(-7px);
+}
+
+.assurance_box .assurance_item .assurance_img_box {
+  width: 38%;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid darkslategray;
+  background: rgba(255, 255, 255, 0.911);
+  border-radius: 50%;
+}
+
+.assurance_box .assurance_item img {
+  width: 100%;
+  height: auto;
+}
+
+.assurance_box .assurance_item .assurance_content {
+  margin-top: 20px;
+  color: white;
+  font-size: 16.5px;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+}
+
+/* media queries for Responsiveness */
+@media screen and (max-width: 991px) {
+  .assurance_box .assurance_item {
+    padding: 15px 10px;
+  }
+
+  .assurance_box .assurance_item .assurance_img_box {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .assurance_box .assurance_item .assurance_img_box img {
+    transform: scale(0.8);
+  }
+
+  .assurance_box .assurance_item .assurance_content {
+    font-size: medium;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .assurance_box .assurance_item {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .assurance_box {
+    flex-direction: column;
+  }
+
+  .assurance_box .assurance_item {
+    width: 80%;
+    margin: auto;
+  }
+
+  .assurance_box .assurance_item .assurance_img_box {
+    width: 42%;
+  }
+}
