@@ -12,4 +12,4 @@ Website - https://giveforgood.000webhostapp.com/
 Linkedin Profile - https://www.linkedin.com/in/gourav-chawla/
 ----
 # Screenshot 
-[](https://github.com/GOURAV-CHAWLA/GIVE-FOR-GOOD/blob/main/GIVE%20FOR%20GOOD/img/image.png)
+![image](https://github.com/GOURAV-CHAWLA/GIVE-FOR-GOOD/blob/main/GIVE%20FOR%20GOOD/img/image.png)
