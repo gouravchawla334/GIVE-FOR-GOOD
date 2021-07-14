@@ -7,7 +7,7 @@ Name - Gourav
 ---------------------------------------------------------------
 Website name - GIVE FOR GOOD
 ----------------------------------------------------------------
-Website - https://giveforgood.000webhostapp.com/
+Website -https://giveforgoodweb.netlify.app/
 -----------------------------------------------------------------
 Linkedin Profile - https://www.linkedin.com/in/gourav-chawla/
 ----
